@@ -23,9 +23,6 @@ class RootState(BaseState):
     await self.u.init()
     return False
 
-  def __init__(self, u: UserScope):
-    BaseState.__init__(self, u)
-
   async def _handleCommand(self, m: Message) -> bool:
     if m.text == '/start':
       await self.send(P('Hello'))
@@ -44,3 +41,6 @@ class RootState(BaseState):
     )
 
     return True
+
+  def __init__(self, u: UserScope):
+    BaseState.__init__(self, u)
