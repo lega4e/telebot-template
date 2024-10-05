@@ -1,0 +1,19 @@
+{
+  "locale": "ru_RU.UTF-8",
+  "tg": {
+    "token": "",
+    "name": "name"
+  },
+  "db": {
+    "host": "ip",
+    "port": "5432",
+    "user": "user",
+    "password": "password",
+    "name": "dbname"
+  },
+  "log": {
+    "fmt": "[%(levelname)s %(asctime)s] %(message)s",
+    "datefmt": "%x %X",
+    "replaceNewLine": false
+  }
+}

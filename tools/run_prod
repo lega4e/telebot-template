@@ -1,0 +1,4 @@
+#!/bin/bash
+cd `dirname $BASH_SOURCE`
+cd ..
+./venv/bin/python3 main.py ./configs/prod.json

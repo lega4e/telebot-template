@@ -1,0 +1,8 @@
+tgui             >= 1.0.13
+lega4e_library   >= 0.0.7
+SQLAlchemy       >= 2.0.29
+alembic          >= 1.13.1
+psycopg2         >= 2.9.9 # for alembic
+asyncpg          >= 0.29.0
+attrs            >= 23.2.0
+aiohttp          >= 3.10.9
